@@ -1,0 +1,627 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+    margin: 10px;
+    width: auto;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+header{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: auto;
+    background-color: ba;
+    display: flex;
+    justify-content: space-between; /*Um itema esquerda e outro a direita*/
+    border-top: 3px solid rgb(238, 107, 20);
+    border-bottom: 3px solid rgb(238, 107, 20);
+    
+}
+
+/* inicio --------------------------- Cabeçalho*/
+.logo img{
+    width: 200px;
+    height: 100px;
+
+}
+
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+
+.menu a{
+    color: rgb(237, 125, 49);
+    /* border: 1px solid red; */
+    border-radius: 50px;
+    margin: 8px;
+    padding: 10px;
+    /* font-weight: bolder; */
+    font-size: 20px;
+
+}
+
+.menu a:hover{
+    color: black;
+}
+
+
+/* fim --------------------------- Cabeçalho*/
+
+#principal{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: auto;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.backgound{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(img/imagem6.jpg);
+
+    background-size: cover;
+
+
+}
+
+
+.inicio{
+
+    width: 80%;
+    min-height: 250px;
+    max-height: 300px;
+    /* height: 250px; */
+    border: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    color: white;
+    margin: 50px;
+    align-items: center;
+
+
+
+}
+
+.inicio h2{
+    /* text-align: center; */
+    font-weight:bold;
+    letter-spacing: 10px;
+    
+}
+.inicio{
+    /* text-align: center; */
+    font-weight:250;
+    
+}
+
+
+/* inicio ------------------------------------ cards */
+
+
+
+.cards{
+    width: auto;
+    height: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+.card1{
+    position: relative;
+    z-index: 0;
+}
+
+.card1::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background: rgb(49, 47, 46);
+    
+    opacity: 0;
+    visibility: visible;
+    transition: all 0.5s;
+    z-index: -1;
+    border-left: 1px solid rgb(237, 125, 49);
+    border-radius: 10px;
+
+}
+
+
+.card1:hover::before{
+    visibility: visible;
+    opacity: 1;
+
+}
+
+.card1:hover h2, .card1:hover p{
+    color: white;
+}
+
+
+
+.card1{
+    margin: 10px;
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    border-left: 1px solid rgb(237, 125, 49);
+    /* border-top: 1px solid red; */
+    /* box-shadow: 0 0 5px #ccc ; */
+    border-radius: 10px;
+}
+
+.card1 img{
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card1 h2{
+    font-size: 16px;
+}
+/* fim ------------------------------------ cards */
+
+
+/* inicio ------------------------------------ Sobre */
+
+
+#principalSobre{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: auto;
+    /* border: 1px solid blue; */
+    /* border-top: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+
+}
+
+.titulo2 {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid rgb(189, 7, 143); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    padding: 10px 10px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+
+
+
+.sobre{
+    width: 95%;
+    height: auto;
+    /* border: 1px solid rgb(189, 7, 143); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px 10px;
+    font-weight: 600;
+    font-size: 30px;
+
+}
+
+.textNos{
+    width: 95%;
+    padding: 10px 10px;
+    text-align: center;
+
+}
+
+#principalSobre img{
+    width: 400px;
+    height: 300px;
+}
+
+
+.imagemSobre{
+    width: 400px;
+    height: 300px;
+    /* border: 1px solid red; */
+    
+}
+
+.meio{
+    width: 900px;
+    height: auto;
+    /* border: 1px solid rgb(0, 0, 0); */
+    text-align: left;
+    color: black;
+    margin-left: 10px;
+    padding: 10px;
+    border-left: 5px;
+}
+
+.principalSobre1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid blue; */
+
+}
+
+/* Contato ------------------------------------ inicio */
+
+#principalCadastro{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: auto;
+    /* border: 1px solid blue; */
+    /* border-top: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+
+}
+
+.entrarCadastro{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid rgb(189, 7, 143); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px 10px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.container1{
+    width: 100%;
+    min-height: 350px;
+    height: auto;
+    background: rgb(236, 159, 107);
+    color: white;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 50px;
+
+
+}
+
+.container2{
+    width: 600px;
+    height: auto;
+    /* border: 1px solid chartreuse; */
+    border-left: 3px solid white;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.container2 h2{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.container3 img{
+    width: 600px;
+    margin: 10px;
+    height: auto;
+    /* background-size: cover; */
+   
+}
+
+
+input[type=text] {
+    width: 200px;
+    height: 25px;
+    border-color: rgb(223, 223, 223);
+    border-radius: 15px;
+    border-style: solid;
+    padding: 5px;
+    margin: 10px;
+}
+
+input[type=date] {
+    
+    height: 25px;
+    border-color: rgb(223, 223, 223);
+    border-radius: 15px;
+    border-style: solid;
+    padding: 5px;
+    margin: 10px;
+}
+
+input[type=email] {
+    width: 200px;
+    height: 25px;
+    border-color: rgb(223, 223, 223);
+    border-radius: 15px;
+    border-style: solid;
+    padding: 5px;
+    margin: 10px;
+}
+
+input[type=tel] {
+    width: 200px;
+    height: 25px;
+    border-color: rgb(223, 223, 223);
+    border-radius: 15px;
+    border-style: solid;
+    padding: 5px;
+    margin: 10px;
+}
+
+select{
+    width: 150px;
+    height: 38px;
+    border-color: rgb(223, 223, 223);
+    border-radius: 15px;
+    border-style: solid;
+    padding: 5px;
+    margin: 10px;
+}
+
+
+textarea{
+    width: 98%;
+    min-height: 200px;
+    height: auto;
+    border-color: rgb(223, 223, 223);
+    border-radius: 15px;
+    border-style: solid;
+    padding: 5px;
+    margin: 10px;
+}
+
+.cadastro{
+width: 80%;
+ border: 1px solid red;
+ padding: 10px;
+ /* display: inline-table ;
+ justify-content: center;
+ align-items: center; */
+
+}
+
+.part1, .part2, .part3, .part4, .part5, .part6, .part7, .part8, .part9{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 15px;
+    width: 80%;
+    /* justify-content: center; */
+    margin-left: 8%;
+    color: rgb(243, 243, 243);
+}
+
+.part1, .part2, .part3, .part4, .part5, .part6{
+    background-image: url(img/imagem10.jpg);
+}
+
+.part7, .part8, .part9, .fundo2-1{
+    background-color: rgb(60, 61, 61);
+}
+
+.part2-1, .part2-2{
+    /* border: 1px solid blue; */
+    margin-right: 15px;
+}
+
+.part2-1 span{
+    margin-left: 11px;
+}
+
+.part2-2 label{
+    margin-left: 11px;
+}
+
+.part2 select{
+    width: 205px;
+    border: 2px;
+    border-color: rgb(223, 223, 223);
+    border-radius: 15px;
+    border-style: solid;
+}
+
+
+.part3 span {
+    padding: 5px;
+    height: 30px;
+
+}
+
+
+.part3-1 span{
+    display: block;
+    /* border: 1px solid red; */
+    padding: 5px;
+    margin-right: 5px;
+
+}
+
+.part3-2 span{
+    display: block;
+    /* border: 1px solid red; */
+
+    
+}
+
+.part5 select{
+    width: auto;
+    /* background-color: bisque; */
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.part7 span{
+    padding: 10px;
+}
+
+/* .partsFull{
+    border: 1px solid palegreen;
+} */
+
+.fundo2-1{
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 15px;
+    width: 80%;
+    /* justify-content: center; */
+    margin-left: 8%;
+    color: rgb(243, 243, 243);
+    margin-top: 10px;
+}
+
+
+#principalEntrar{
+    width: 100%;
+    height: 600px;
+    border: 1px solid rgb(80, 116, 28);
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardentrar{
+    width: 350px;
+    height: 270px;
+    /* border: 1px solid blue; */
+    text-align: center;
+    border-left: 5px solid rgb(236, 159, 107);
+}
+
+.cardentrarimg{
+    /* border: 1px solid salmon; */
+    width: 400px;
+    height: 270px;
+}
+
+.cardentrarimg img{
+    width: 100%;
+}
+
+.cardentrar input{
+    width: 200px;
+    height: 25px;
+    border-color: rgb(223, 223, 223);
+    border-radius: 15px;
+    border-style: solid;
+    padding: 5px;
+    margin: 10px;
+}
+
+.cardentrar button{
+    width: 100px;
+    height: 30px;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-spacing: 0px;
+    padding: 0px;
+}
+
+table{
+    margin-left: 50px;
+}
+
+td, th{
+    background-color: aliceblue;
+    padding: 10px;
+    text-align: center;
+}
+
+th{
+    background-color: rgb(0, 255, 234);
+}
+
+
+section{
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h3{
+    font-weight: 600;
+
+}
+
+footer{   /*************************************** RODAPE */
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    height: 100;
+}
+
+span{
+    font-weight: 600;
+    color:rgb(0, 255, 234);
+}
+
+img{
+    display: flex;
+}

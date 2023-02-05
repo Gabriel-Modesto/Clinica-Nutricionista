@@ -1,0 +1,14 @@
+----------------- Site desenvolvido em sala de aula -----------------
+
+
+
+___________________________ CONHECIMENTOS ___________________________
+CURSO: Tec. em Informática (Desenvolvimento Web) - SENAC MADUREIRA-RJ
+TEMPO NO CURSO: 3 meses
+
+_____________________________________________________________________
+- Assunto: Site de nutrição
+- ATIVIDADE: Uso de formulários
+- DESENVOLVIDO EM: 11/12/2023
+
+Este foi meu primeiro site desenvolvido em sala de aula.
